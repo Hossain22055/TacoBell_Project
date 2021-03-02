@@ -1,12 +1,12 @@
 ﻿namespace LoggingKata
 {
-    internal class TacoBell
+    internal class TacoBell: ITrackable
     {
         public TacoBell()
         {
         }
 
-        public string Name { get; internal set; }
-        public object Location { get; internal set; }
+        public string Name { get;  set; }
+        public Point Location { get;  set; }
     }
 }
